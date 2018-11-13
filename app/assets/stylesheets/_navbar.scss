@@ -42,6 +42,7 @@ ul, li
   background-color: rgba(0, 0, 0, 0);
   border: none;
   cursor: pointer;
+  outline: 0;
 }
 
 .dropdown-content
@@ -50,6 +51,8 @@ ul, li
     background-color: pink;
     overflow: auto;
     position: absolute;
+    margin-left: 8px;
+    border-radius: 10px;
 }
 
 .show

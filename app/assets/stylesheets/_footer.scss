@@ -4,12 +4,19 @@ footer
   bottom: 0px;
   left: 0px;
   right:0px;
-  background-color: #cb9b42;
+  background-color: #8bd5cb;
   text-align: center;
+  font-size: 18px;
+
 }
 
 #footer-list
 {
   list-style: none;
   padding-left: 0;
+}
+
+#footer-list, li
+{
+  color: #c56868;
 }

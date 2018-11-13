@@ -7,7 +7,7 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 300px;
-    background-color: yellow;
+    background-color: #edfffa;
     text-align: center;
     margin: auto;
 }
@@ -26,7 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .btn-tabs {
@@ -35,13 +35,14 @@
   height: 30px;
   width: 150px;
   font-size: 18px;
-  background-color: yellow;
+  background-color: #8bd5cb;
   border-color: white;
   border-radius: 10% / 50%;
   outline: 0;
+  color: #c56868;
 }
 
 .btn-tabs:hover{
   color: white;
-  background-color: red;
+  background-color: #974949;
 }

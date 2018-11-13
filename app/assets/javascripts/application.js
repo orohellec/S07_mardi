@@ -14,3 +14,16 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+function showProfile(name) {
+    var i;
+    var x = document.getElementsByClassName("card");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    document.getElementById(name).style.display = "block";
+}
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}

@@ -1,0 +1,32 @@
+<body>
+<div class="tabs">
+  <button class="btn-tabs" onclick="showProfile('sully')">Avatar</button>
+  <button class="btn-tabs" onclick="showProfile('orc')">Orc</button>
+  <button class="btn-tabs" onclick="showProfile('rondoudou')">Rondoudou</button>
+</div>
+
+
+<div id="sully" class="card">
+  <%= image_tag "avatar.jpg", alt: "avatar", width: 300, class: "category-avatar" %>
+  <div class="container">
+    <h4 class="card-author"><b>Jake Sully</b></h4>
+    <p class="card-resume">Il a trahit sa propre race pour ses idéaux. Héros ou traitre? A vous de juger!</p>
+  </div>
+</div>
+
+<div id="orc" class="card" style="display:none">
+  <%= image_tag "orc.jpeg", alt: "avatar", width: 300, class: "category-avatar" %>
+  <div class="container">
+    <h4 class="card-author"><b>Moldock</b></h4>
+    <p class="card-resume">Serviteur du mordor, prêt à vous tuer!</p>
+  </div>
+</div>
+
+<div id="rondoudou" class="card" style="display:none">
+  <%= image_tag "rondoudou.jpeg", alt: "avatar", width: 300, class: "category-avatar" %>
+  <div class="container">
+    <h4 class="card-author"><b>Rondoudou</b></h4>
+    <p class="card-resume">Son chant vous bercera! zzzZ..</p>
+  </div>
+</div>
+</body>

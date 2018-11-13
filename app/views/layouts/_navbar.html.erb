@@ -1,7 +1,22 @@
 <nav>
-  <ul>
-    <li>Accueil</li>
-    <li>lien 2</li>
-    <li>lien 3</li>
+  <ul class="navbar">
+    <div id="navbar_logo">
+      <li><%= image_tag "logo.png", alt: "logo", width: 64, height: 64 %></li>
+    </div>
+    <div id="navbar_right">
+      <li>Accueil</li>
+      <li>lien 2</li>
+      <li>lien 3</li>
+      <li>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn"><%= image_tag "barbie.jpeg", alt: "avatar", width: 400, class: "avatar" %></button>
+          <div id="myDropdown" class="dropdown-content">
+            <p><a href="#">Mon profil</a></p>
+            <p><a href="#">Mon compte</a></p>
+            <p><a href="#">Déconnexion</a></p>
+          </div>
+        </div>
+      </li>
+    </div>
   </ul>
 </nav>

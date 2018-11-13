@@ -1,4 +1,63 @@
+.navbar
+{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(51, 170, 51, .4);
+  margin-bottom: 50px;
+  border-radius: 20px 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+  position: relative;
+}
+
 ul, li
 {
   color: white;
+}
+
+#navbar_right
+{
+  display: flex;
+  align-items: center;
+}
+
+#navbar_right li
+{
+  margin-right: 20px;
+}
+
+.avatar{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+}
+
+.dropbtn
+{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content
+{
+    display: none;
+    background-color: pink;
+    overflow: auto;
+    position: absolute;
+}
+
+.show
+{
+  display: block;
+}
+
+.dropdown
+{
+  position: relative;
 }
